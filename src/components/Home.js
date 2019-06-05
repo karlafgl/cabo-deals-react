@@ -25,8 +25,8 @@ import Scroll from "./Scroll";
 
 const Home = () => {
   const [activities, filterActivities] = useState(DATA);
-  const onInputChange = e => {
-    debugger;
+  const onInputChange = ({target: value = ''}) => {
+    // DATA.filter(i => i.name.toLowerCase().includes(value))
     filterActivities(DATA);
   };
   return (
