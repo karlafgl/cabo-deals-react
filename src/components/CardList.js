@@ -15,6 +15,7 @@ const CardList = ({dataActivity}) => {
                     price={dataActivity[i].price.adults} 
                     duration={dataActivity[i].duration} 
                     description={dataActivity[i].description}
+                    taxonomy={dataActivity[i].taxonomy}
                 />
             )
          })

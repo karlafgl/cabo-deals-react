@@ -7,8 +7,8 @@ const Navigation = () => {
                 <img src="http://tachyons.io/img/logo.jpg" className="dib w2 h2 br-100" alt="Site Name" />
             </a>
             <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-                <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
-                <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Press">Press</a>
+                <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="/" title="Home">Home</a>
+                <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="/sea-adventures" title="Press">Sea Adventures</a>
                 <a className="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
             </div>
         </nav>
